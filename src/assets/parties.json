@@ -1,0 +1,160 @@
+{
+  "parties": [
+    {
+      "name": "Speaker",
+      "colour": "#DDDDDD",
+      "abbr": ["Spk", "SPK", "Speaker Seeking Re-Election"],
+      "fullname": "Speaker"
+    },
+    {
+      "name": "Respect Party",
+      "colour": "#46801C",
+      "abbr": ["Respect", "RESPECT"],
+      "fullname": "Respect Party"
+    },
+    {
+      "name": "Democratic Unionist Party",
+      "colour": "#D46A4C",
+      "abbr": ["DUP", "dup"],
+      "fullname": "Democratic Unionist Party"
+    },
+    {
+      "name": "Christian Peoples Alliance",
+      "colour": "#813887",
+      "abbr": ["CPA", "cpa"],
+      "fullname": "Christian Peoples Alliance"
+    },
+    {
+      "name": "National Front",
+      "colour": "midnightblue",
+      "abbr": ["NF", "nf"],
+      "fullname": "National Front"
+    },
+    {
+      "name": "Sinn Fein",
+      "colour": "#326760",
+      "abbr": ["SF", "sf"],
+      "fullname": "Sinn Fein"
+    },
+    {
+      "name": "Ulster Conservatives and Unionists - New Force",
+      "colour": "#9999FF",
+      "abbr": ["UCF-NF"],
+      "fullname": "Ulster Conservatives and Unionists - New Force"
+    },
+    {
+      "name": "Alliance",
+      "colour": "#F6CB2F",
+      "abbr": ["All", "ALL"],
+      "fullname": "Alliance"
+    },
+    {
+      "name": "Social Democratic & Labour Party",
+      "colour": "#3A9E84",
+      "abbr": ["SDLP"],
+      "fullname": "Social Democratic & Labour Party"
+    },
+    {
+      "name": "Soc Lab",
+      "colour": "#EE1C25",
+      "abbr": ["Soc Lab"],
+      "fullname": "Socialist Labour"
+    },
+    {
+      "name": "Lab Co-op",
+      "colour": "#DC241f",
+      "abbr": ["Lab Co-op"],
+      "fullname": "Labour Co-operative"
+    },
+    {
+      "name": "Monster Raving Loony Party",
+      "colour": "#FFF000",
+      "abbr": ["MRLP"],
+      "fullname": "Official Monster Raving Loony Party"
+    },
+    {
+      "name": "Trade Unionist and Socialist Coalition",
+      "colour": "#EC008C",
+      "abbr": ["TUSC"],
+      "fullname": "Trade Unionist and Socialist Coalition"
+    },
+    {
+      "name": "Plaid Cymru",
+      "colour": "#008142",
+      "abbr": ["PC"],
+      "fullname": "Plaid Cymru"
+    },
+    {
+      "name": "Scottish National Party",
+      "colour": "#FDF38E",
+      "abbr": ["SNP"],
+      "fullname": "Scottish National Party"
+    },
+    {
+      "name": "Christian Party",
+      "colour": "#9966CC",
+      "abbr": "Christian",
+      "fullname": "Christian Party"
+    },
+    {
+      "name": "English Democrats",
+      "colour": "#915F6D",
+      "abbr": ["ED"],
+      "fullname": "English Democrats"
+    },
+    {
+      "name": "Independent",
+      "colour": "#DDDDDD",
+      "abbr": ["Ind", "No Description"],
+      "fullname": "Independent"
+    },
+    {
+      "name": "Green Party",
+      "colour": "#6AB023",
+      "abbr": ["Green"],
+      "fullname": "Green Party"
+    },
+    {
+      "name": "British National Party",
+      "colour": "#2e3b74",
+      "abbr": ["BNP"],
+      "fullname": "British National Party"
+    },
+    {
+      "name": "United Kingdom Independence Party",
+      "colour": "#70147A",
+      "abbr": ["UKIP"],
+      "fullname": "UK Independence Party"
+    },
+    {
+      "name": "Labour Party",
+      "colour": "#DC241f",
+      "abbr": ["Lab"],
+      "fullname": "Labour"
+    },
+    {
+      "name": "Conservative Party",
+      "colour": "#0087DC",
+      "abbr": ["Con"],
+      "fullname": "Conservative"
+    },
+    {
+      "name": "Liberal Democrat",
+      "colour": "#FAA61A",
+      "abbr": ["LD"],
+      "fullname": "Liberal Democrat"
+    },
+    {
+      "name": "Ulster Unionist Party",
+      "colour": "#48A5EE",
+      "abbr": ["UUP"],
+      "fullname": "Ulster Unionist Party"
+    },
+    {
+      "name": "Brexit Party",
+      "colour": "#12B6CF",
+      "abbr": ["Brexit", "RefUK"],
+      "fullname": "Reform UK"
+    }
+  ]
+}
