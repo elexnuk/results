@@ -5,7 +5,7 @@
     <ElectionResult :result="focusResult" ></ElectionResult>
   </div>
   
-  <Map :dataSource="dataSrc" mapType="real" displayType="majority" @changeFocus="changeFocus"></Map>
+  <Map :dataSource="dataSrc" tagProperty="PCON20CD" displayType="majority" @changeFocus="changeFocus"></Map>
 </template>
 
 <script setup>
@@ -26,12 +26,11 @@ let state = reactive({focusOn: ""});
  */
 function changeFocus (newFocus) {
   state.focusOn = newFocus;
-  console.log(focusResult.value);
 }
 
 onMounted(async () => {
   WestminsterConst.value = await d3.json("./WestminsterConst.geojson");
-  Election2019.value = await d3.json("./2019.json");
+  Election2019.value = await d3.json("./2019-_ByElections.json");
 });
 
 const dataSrc = computed(() => {
