@@ -15,6 +15,8 @@ const props = defineProps({
     "displayType": String
 });
 
+const emit = defineEmits(["changeFocus"]);
+
 var map;
 var zoomLayer;
 
@@ -34,6 +36,9 @@ function getPartyColour (partyCode) {
     return "#616161";
 }
 
+/**
+ * Put boundary data into the svg element.
+ */
 function redrawGeoMap () {
     let boundary = props.dataSource.boundary.value;
 
@@ -58,9 +63,16 @@ function redrawGeoMap () {
         .enter()
             .append("path")
             .attr("d", geoGenerator)
-            .attr("fill", "red");
+            .attr("data-tag", (feature) => feature.properties.PCON20CD)
+            .attr("fill", "red")
+            .on("mouseover", (event) => {
+                emit("changeFocus", event.target.getAttribute("data-tag"));
+            });
 }
 
+/**
+ * Colour the SVG elements by election winners
+ */
 function recolourGeoMap () {
     let electionData = props.dataSource.election.value;
 
@@ -70,16 +82,25 @@ function recolourGeoMap () {
     });
 }
 
+/**
+ * Update the boundaries in the svg when the boundaries change
+ */
 watch(props.dataSource.boundary, () => {
     console.log("Src Boundaries changed ", props.dataSource.boundary.value);
     redrawGeoMap();
 });
 
+/**
+ * Update the colouring when the election src changes.
+ */
 watch(props.dataSource.election, () => {
     console.log("Src Election changed ", props.dataSource.election.value);
     recolourGeoMap();
 })
 
+/**
+ * Create instances of d3 and do initial stuff when this component is mounted into the document
+ */
 onMounted(async () => {
     console.log("Mounted with ", props.dataSource.boundary.value);
     map = d3.select("div svg")
