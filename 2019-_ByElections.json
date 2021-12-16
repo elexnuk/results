@@ -1,0 +1,714 @@
+{
+	"E14000733": {
+		"id": "E14000733",
+		"name": "Hartlepool",
+		"by-election": {
+			"previous": "Mike Hill",
+			"date": "6 May 2021",
+			"reason": "Resignation after allegations of sexual harrassment"
+		},
+		"electorate": 64101,
+		"turnout": 29933,
+		"majority": 6940,
+		"result": "Con gain from Lab",
+		"mp": {
+			"name": "Jill Mortimer",
+			"party": "Con"
+		},
+		"candidates": [
+			{
+				"candidate": "Jill Mortimer",
+				"party": "Con",
+				"votes": 15529,
+				"change": 23.0,
+				"incumbent": false,
+				"elected": true
+			},
+			{
+				"candidate": "Paul Williams",
+				"party": "Lab",
+				"votes": 8589,
+				"change": -9.0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Sam Lee",
+				"party": "Ind",
+				"votes": 2904,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Claire Martin",
+				"party": "Heritage",
+				"votes": 468,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "John Prescott",
+				"party": "Reform UK",
+				"votes": 368,
+				"change": -24.6,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Rachel Featherstone",
+				"party": "Green",
+				"votes": 358,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Andrew Hagon",
+				"party": "LD",
+				"votes": 349,
+				"change": -2.9,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Thelma Walker",
+				"party": "Ind",
+				"votes": 250,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Chris Killick",
+				"party": "Ind",
+				"votes": 248,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Hilton Dawson",
+				"party": "North East",
+				"votes": 163,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "W. Ralph Ward-Jackson",
+				"party": "Ind",
+				"votes": 157,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Gemma Evans",
+				"party": "WEP",
+				"votes": 140,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Adam Gaines",
+				"party": "Ind",
+				"votes": 126,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "The Incredible Flying Brick",
+				"party": "MRLP",
+				"votes": 108,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "David Bettney",
+				"party": "SDP",
+				"votes": 104,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Steve Jack",
+				"party": "FAL",
+				"votes": 72,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			}
+		]
+	},
+	"S14000003": {
+		"id": "S14000003",
+		"name": "Airdrie and Shotts",
+		"by-election": {
+			"previous": "Neil Gray",
+			"date": "13 May 2021",
+			"reason": "Resigned to run for Scottish Parliament"
+		},
+		"electorate": 64011,
+		"turnout": 21827,
+		"majority": 1757,
+		"result": "SNP hold",
+		"mp": {
+			"name": "Anum Qaisar-Javed",
+			"party": "SNP"
+		},
+		"candidates": [
+			{
+				"candidate": "Anum Qaisar-Javed",
+				"party": "SNP",
+				"votes": 10129,
+				"change": 1.4,
+				"incumbent": false,
+				"elected": true
+			},
+			{
+				"candidate": "Kenneth Stevenson",
+				"party": "Lab",
+				"votes": 8372,
+				"change": 6.5,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Ben Callaghan",
+				"party": "Con",
+				"votes": 2812,
+				"change": -4.7,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Stephen Arrundale",
+				"party": "LD",
+				"votes": 220,
+				"change": -2.6,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Neil Manson",
+				"party": "SDP",
+				"votes": 151,
+				"change": 0.7,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Jonathan Stanley",
+				"party": "Scottish Unionist",
+				"votes": 59,
+				"change": 0.3,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Martyn Greene",
+				"party": "Reform UK",
+				"votes": 45,
+				"change": 0.2,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Donald Mackay",
+				"party": "UKIP",
+				"votes": 39,
+				"change": 0.2,
+				"incumbent": false,
+				"elected": false
+			}
+		]
+	},
+	"E14000631": {
+		"id": "E14000631",
+		"name": "Chesham and Amersham", 
+		"by-election": {
+			"previous": "Cheryl Gillian",
+			"date": "17 June 2021",
+			"reason": "Passed away on the 4th of April 2021."
+		},
+		"electorate": 71654, 
+		"turnout": 37954, 
+		"majority": 8028, 
+		"result": "LD gain from CON", 
+		"mp": {
+			"name": "Sarah Green",
+			"party": "LD"
+		},
+		"candidates": [
+			{
+				"candidate": "Sarah Green",
+				"party": "LD",
+				"votes": 21517,
+				"change": 30.4,
+				"incumbent": false,
+				"elected": true
+			},
+			{
+				"candidate": "Peter Fleet",
+				"party": "Con",
+				"votes": 13489,
+				"change": -19.9,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Carolyne Culver",
+				"party": "Green",
+				"votes": 1480,
+				"change": -1.6,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Natasa Pantellic",
+				"party": "Lab",
+				"votes": 622,
+				"change": -11.2,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Alex Wilson",
+				"party": "Reform UK",
+				"votes": 414,
+				"change": 1.1,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Carla Gregory",
+				"party": "Breakthrough Party",
+				"votes": 197,
+				"change": 0.5,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Adrian Oliver",
+				"party": "Freedom Alliance",
+				"votes": 134,
+				"change": 0.4,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Brendan Donnelly",
+				"party": "Rejoin EU",
+				"votes": 101,
+				"change": 0.3,
+				"incumbent": false,
+				"elected": false
+			}			
+		]
+	},
+	"E14000548": {
+		"id": "E14000548", 
+		"name": "Batley and Spen", 
+		"by-election": {
+			"previous": "Tracy Brabin",
+			"date": "1 July 2021",
+			"reason": "Resigned to become West Yorkshire Mayor."
+		},
+		"electorate": 79558, 
+		"turnout": 37786, 
+		"majority": 323, 
+		"result": "LAB hold", 
+		"mp": {
+			"name": "Kim Leadbeater",
+			"party": "Lab"
+		},
+		"candidates": [
+			{
+				"candidate": "Kim Leadbeater",
+				"party": "Lab", 
+				"votes": 13296, 
+				"change": -7.5, 
+				"incumbent": false, 
+				"elected": true
+			}, 
+			{
+				"candidate": "Ryan Stephenson", 
+				"party": "Con", 
+				"votes": 12973, 
+				"change": -1.7, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "George Galloway", 
+				"party": "Workers Party", 
+				"votes": 8264, 
+				"change": 21.8, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "Tom Gordon", 
+				"party": "LD", 
+				"votes": 1254, 
+				"change": -1.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Corey Robinson", 
+				"party": "Yorkshire Party", 
+				"votes": 816, 
+				"change": 2.16, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Thérèse Hirst", 
+				"party": "ED", 
+				"votes": 207, 
+				"change": 0.5, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jack Thomson", 
+				"party": "UKIP", 
+				"votes": 151, 
+				"change": 0.4, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Howling Laud Hope", 
+				"party": "MRLP", 
+				"votes": 107, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Mike Davies",
+				"party": "Alliance for Green Socialism",
+				"votes": 104,
+				"change": 0.3,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Paul Bickerdike", 
+				"party": "CPA", 
+				"votes": 102, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jonathon Tilt", 
+				"party": "Freedom Alliance", 
+				"votes": 100, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Anne Marie Waters", 
+				"party": "For Britain", 
+				"votes": 97, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Andrew Smith", 
+				"party": "Rejoin EU", 
+				"votes": 75, 
+				"change": 0.2, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Ollie Purser", 
+				"party": "SDP", 
+				"votes": 66, 
+				"change": 0.2, 
+				"incumbent": false, 
+				"elected": false
+			},		
+			{
+				"candidate": "Jayda Fransen", 
+				"party": "Ind", 
+				"votes": 50, 
+				"change": 0.1, 
+				"incumbent": false, 
+				"elected": false
+			},	
+			{
+				"candidate": "Susan Laird", 
+				"party": "Heritage", 
+				"votes": 33, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14000869": {
+		"id": "E14000869", 
+		"name": "Old Bexley and Sidcup", 
+		"by-election": {
+			"previous": "James Brokenshire",
+			"date": "2 December 2021",
+			"reason": "Death (Cancer)"
+		},
+		"electorate": 66104, 
+		"turnout": 21733, 
+		"majority": 4478, 
+		"result": "Con hold", 
+		"mp": {
+			"name": "Louie French",
+			"party": "Con"
+		},
+		"candidates": [
+			{
+				"candidate": "Louie French",
+				"party": "Con", 
+				"votes": 11189, 
+				"change": -13.0, 
+				"incumbent": false, 
+				"elected": true
+			},
+			{
+				"candidate": "Daniel Francis",
+				"party": "Lab", 
+				"votes": 6722, 
+				"change": 7.4, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Richard Tice",
+				"party": "Reform UK", 
+				"votes": 1432, 
+				"change": 6.6, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jonathan Rooks",
+				"party": "Grn", 
+				"votes": 830, 
+				"change": 0.6, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Simone Reynolds",
+				"party": "LD", 
+				"votes": 647, 
+				"change": -5.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Elaine Cheeseman",
+				"party": "ED", 
+				"votes": 271, 
+				"change": 1.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "John Poynton",
+				"party": "UKIP", 
+				"votes": 184, 
+				"change": 0.8, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Richard Hewison",
+				"party": "Rejoin EU", 
+				"votes": 151, 
+				"change": 0.7, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "David Kurten",
+				"party": "Heritage", 
+				"votes": 116, 
+				"change": 0.5, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Carol Valinejad",
+				"party": "CPA", 
+				"votes": 108, 
+				"change": 0.5, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Mad Mike Young",
+				"party": "MRLP", 
+				"votes": 94, 
+				"change": 0.4, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14000849": {
+		"id": "E14000849", 
+		"name": "North Shropshire", 
+		"by-election": {
+			"previous": "Owen Patterson",
+			"date": "16 December 2021",
+			"reason": "Resigned after found to have broken parliamentary standards"
+		},
+		"electorate": 83258, 
+		"turnout": 0, 
+		"majority": 0, 
+		"result": "TBA", 
+		"mp": {
+			"name": "TBA", 
+			"party": "Ind"
+		}, 
+		"candidates": [
+			{
+				"candidate": "Neil Shastri-Hurst", 
+				"party": "Con", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Ben Wood", 
+				"party": "Lab", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Helen Morgan", 
+				"party": "LD", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Duncan Kerr", 
+				"party": "Green", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Suzie Akers-Smith", 
+				"party": "Ind", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Andrea Allen", 
+				"party": "UKIP", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Boris Been Bunged", 
+				"party": "Rejoin EU", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Martin Daubney", 
+				"party": "Reclaim Party", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Russell Dean", 
+				"party": "Party Party", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "James Elliot", 
+				"party": "Heritage", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Alan \"Howling Laud\" Hope", 
+				"party": "MRLP", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Earl Jesse", 
+				"party": "Freedom Alliance", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Yolande Kenward", 
+				"party": "Ind", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Kirsty Walmsley", 
+				"party": "Reform UK", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14000957": {
+		"id": "E14000957", 
+		"name": "Southend West", 
+		"by-election": {
+			"previous": "David Amess",
+			"date": "TBA",
+			"reason": "Death (Murder)"
+		},
+		"electorate": 66780, 
+		"turnout": 0, 
+		"majority": 0, 
+		"result": "TBA", 
+		"mp": {
+			"name": "TBA",
+			"party": "Ind"
+		},
+		"candidates": [
+			{
+				"candidate": "TBA",
+				"party": "Con", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": true
+			}
+		]
+	}
+}
