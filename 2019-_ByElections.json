@@ -575,110 +575,110 @@
 			"reason": "Resigned after found to have broken parliamentary standards"
 		},
 		"electorate": 83258, 
-		"turnout": 0, 
-		"majority": 0, 
-		"result": "TBA", 
+		"turnout": 38110, 
+		"majority": 5925, 
+		"result": "LD gain from Con", 
 		"mp": {
-			"name": "TBA", 
-			"party": "Ind"
+			"name": "Helen Morgan", 
+			"party": "LD"
 		}, 
 		"candidates": [
 			{
+				"candidate": "Helen Morgan", 
+				"party": "LD", 
+				"votes": 17957, 
+				"change": 37.1, 
+				"incumbent": false, 
+				"elected": true
+			}, {
 				"candidate": "Neil Shastri-Hurst", 
 				"party": "Con", 
-				"votes": 0, 
-				"change": 0, 
+				"votes": 12032, 
+				"change": -31.1, 
 				"incumbent": false, 
 				"elected": false
 			}, {
 				"candidate": "Ben Wood", 
 				"party": "Lab", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Helen Morgan", 
-				"party": "LD", 
-				"votes": 0, 
-				"change": 0, 
+				"votes": 3686, 
+				"change": -12.4, 
 				"incumbent": false, 
 				"elected": false
 			}, {
 				"candidate": "Duncan Kerr", 
 				"party": "Green", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Suzie Akers-Smith", 
-				"party": "Ind", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Andrea Allen", 
-				"party": "UKIP", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Boris Been Bunged", 
-				"party": "Rejoin EU", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Martin Daubney", 
-				"party": "Reclaim Party", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Russell Dean", 
-				"party": "Party Party", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "James Elliot", 
-				"party": "Heritage", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Alan \"Howling Laud\" Hope", 
-				"party": "MRLP", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Earl Jesse", 
-				"party": "Freedom Alliance", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			}, {
-				"candidate": "Yolande Kenward", 
-				"party": "Ind", 
-				"votes": 0, 
-				"change": 0, 
+				"votes": 1738, 
+				"change": 1.4, 
 				"incumbent": false, 
 				"elected": false
 			}, {
 				"candidate": "Kirsty Walmsley", 
 				"party": "Reform UK", 
-				"votes": 0, 
-				"change": 0, 
+				"votes": 1427, 
+				"change": 3.7, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Andrea Allen", 
+				"party": "UKIP", 
+				"votes": 378, 
+				"change": 1.0, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Martin Daubney", 
+				"party": "Reclaim Party", 
+				"votes": 375, 
+				"change": 0.98, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Alan \"Howling Laud\" Hope", 
+				"party": "MRLP", 
+				"votes": 118, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Suzie Akers-Smith", 
+				"party": "Ind", 
+				"votes": 95, 
+				"change": 0.2, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "James Elliot", 
+				"party": "Heritage", 
+				"votes": 79, 
+				"change": 0.2, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Boris Been Bunged", 
+				"party": "Rejoin EU", 
+				"votes": 58, 
+				"change": 0.2, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Earl Jesse", 
+				"party": "Freedom Alliance", 
+				"votes": 57, 
+				"change": 0.1, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Russell Dean", 
+				"party": "Party Party", 
+				"votes": 19, 
+				"change": 0.05, 
+				"incumbent": false, 
+				"elected": false
+			}, {
+				"candidate": "Yolande Kenward", 
+				"party": "Ind", 
+				"votes": 3, 
+				"change": 0.007, 
 				"incumbent": false, 
 				"elected": false
 			}
