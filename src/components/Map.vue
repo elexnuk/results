@@ -15,7 +15,8 @@ const props = defineProps({
     "boundary": Object,
     "election": Object,
     "displayType": Object,
-    "tagProperty": String
+    "tagProperty": String,
+    "focusPath": Object
 });
 
 const emit = defineEmits(["changeFocus"]);
@@ -82,39 +83,52 @@ function redrawGeoMap (boundary) {
                     emit("changeFocus", event.target.getAttribute("data-tag"));
             })
             .on("click", (event) => { // Zoom into selected map part
-                let bbox = event.target.getBBox();
-                let [centreX, centreY] = [bbox.x + (bbox.width / 2), bbox.y + (bbox.height / 2)];
-                
-                if (selectedPath) {
-                    selectedPath.setAttribute("stroke", "");
 
-                    // Zoom out if clicking on the same constituency
-                    if (selectedPath.getAttribute("data-tag") == event.target.getAttribute("data-tag")) {
-                        map.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
-
-                        mouseLocked = false;
-                        selectedPath = null;
-                        return;
-                    }
+                // Zoom out if clicking on the same constituency
+                if (selectedPath && selectedPath.getAttribute("data-tag") == event.target.getAttribute("data-tag")) {
+                    return resetPathFocus();
                 }
-
-                map.transition().duration(500).call(
-                    zoom.transform, 
-                    d3.zoomIdentity
-                        .translate(width / 2, height / 2)
-                        .scale(8)
-                        .translate(-centreX, -centreY)
-                    );
-                event.target.setAttribute("stroke", "gold");
-                event.target.setAttribute("stroke-width", "0.05%");
-                event.target.setAttribute("stroke-linejoin", "round");
-
-                d3.select(event.target).raise(); // Move to front
-
-                mouseLocked = true;
-                selectedPath = event.target;
-                emit("changeFocus", event.target.getAttribute("data-tag"))
+                
+                // Else, change display and zoom into constituency
+                emit("changeFocus", event.target.getAttribute("data-tag"));
+                focusOnPath(event.target);
             });
+}
+
+// Reset zoom
+function resetPathFocus () {
+    selectedPath.setAttribute("stroke", "");
+
+    map.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+
+    mouseLocked = false;
+    selectedPath = null;
+}
+
+// Zoom in
+function focusOnPath (path) {
+    let bbox = path.getBBox();
+    let [centreX, centreY] = [bbox.x + (bbox.width / 2), bbox.y + (bbox.height / 2)];
+    
+    if (selectedPath) {
+        selectedPath.setAttribute("stroke", "");
+    }
+
+    map.transition().duration(500).call(
+        zoom.transform, 
+        d3.zoomIdentity
+            .translate(width / 2, height / 2)
+            .scale(8)
+            .translate(-centreX, -centreY)
+        );
+    path.setAttribute("stroke", "gold");
+    path.setAttribute("stroke-width", "0.05%");
+    path.setAttribute("stroke-linejoin", "round");
+
+    d3.select(path).raise(); // Move to front
+
+    mouseLocked = true;
+    selectedPath = path;
 }
 
 /**
@@ -213,8 +227,26 @@ onMounted(async () => {
         recolourGeoMap(props.election.value);
     });
 
+    watch(props.focusPath, () => {
+        
+        if (props.focusPath.focusOn == undefined || props.focusPath.focusOn == "") {
+            return;
+        }
+
+        let paths = document.querySelectorAll(`path[data-tag='${props.focusPath.focusOn}']`);
+        if (paths.length == 0 || !paths[0]) { // No paths matching ID check
+            
+            let consts = Object.values(props.election.value).filter((el) => el.name.toLowerCase() == props.focusPath.focusOn.toLowerCase());
+            if (!consts || consts.length == 0 || !consts[0]) // No matching by name
+                return
+            // List matching by name 
+            paths = document.querySelectorAll(`path[data-tag='${consts[0].id}']`);
+        }
+
+        // Change display and zoom into first match
+        emit("changeFocus", paths[0].getAttribute("data-tag"));
+        return focusOnPath(paths[0]);
+    });
+
 });
-
-
-
 </script>
