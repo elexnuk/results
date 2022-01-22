@@ -702,12 +702,95 @@
 		},
 		"candidates": [
 			{
-				"candidate": "TBA",
+				"candidate": "Anna Firth",
 				"party": "Con", 
 				"votes": 0, 
 				"change": 0, 
 				"incumbent": false, 
 				"elected": true
+			},
+			{
+				"candidate": "Catherine Blaiklock",
+				"party": "ED", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Olda Childs",
+				"party": "Ind", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Ben Downton",
+				"party": "Heritage", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jayda Fransen",
+				"party": "Ind", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Steve Laws",
+				"party": "UKIP", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Graham Moore",
+				"party": "English Constitution", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jason Pilley",
+				"party": "Psychedelic Movement", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14000561": {
+		"id": "E14000561", 
+		"name": "Birmingham, Erdington",
+		"by-election": {
+			"previous": "Jack Dromey",
+			"date": "TBA",
+			"reason": "Death (Natural Causes)"
+		},
+		"electorate": 66148, 
+		"turnout": 0, 
+		"majority": 0, 
+		"result": "TBD", 
+		"mp": {
+			"name": "TBD", 
+			"party": "Ind"
+		}, 
+		"candidates": [
+			{
+				"candidate": "TBD",
+				"party": "Lab", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
 			}
 		]
 	}
