@@ -6,6 +6,12 @@
         <h1 v-if="props.result.name" class="inline-block font-bold text-3xl">{{ props.result.name || "" }}</h1>
         <h5 v-if="props.result.id" class="inline-block font-thin text-sm pl-2">({{ props.result.id || "" }})</h5>
 
+        <h3 v-if="props.result[`by-election`]" class="block font-bold text-xl">
+            By-Election: <span class="font-normal">{{ props.result["by-election"].previous }}</span><br>
+            Date: <span class="font-normal">{{ props.result["by-election"].date }}</span><br>
+            Reason: <span class="font-normal">{{ props.result["by-election"].reason }}</span> 
+        </h3>
+
         <h3 v-if="props.result.mp" class="block font-bold text-xl">
             Elected MP: {{ props.result.mp.name || "N/A" }}
             (<span
@@ -35,7 +41,7 @@
         <div v-if="props.result.candidates">
             <ElectionResultRow 
                 v-for="candidate in candidatesDisplay(props.result.candidates)[0]" 
-                :key="candidate.candidate" :candidate="candidate" 
+                :key="candidate.order" :candidate="candidate" 
                 :totalVotes="props.result.turnout">
             </ElectionResultRow>
             <span v-if="candidatesDisplay(props.result.candidates)[1].length > 0">
@@ -65,6 +71,7 @@ function candidatesDisplay (candidates) {
     for (let candidate of candidates) {
 
         if (counter < threshold || (counter == threshold && counter == candidates.length - 1)) {
+            candidate.order = counter;
             output.push(candidate);
         } else {
             otherVotes += candidate.votes;

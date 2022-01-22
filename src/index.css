@@ -24,3 +24,7 @@
         background-position: 0% 50%;
     }
 }
+
+path {
+    transition: fill 0.3s ease-in;
+}

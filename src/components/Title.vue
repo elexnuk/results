@@ -1,4 +1,5 @@
 <template>
+<a href="https://github.com/jamesm2w" class="" target="_blank">
 <div
     class="m-4 mb-0 p-2 text-gradient text-transparent bg-clip-text w-min pointer-events-none select-none"
 >
@@ -8,7 +9,7 @@
         <br />Results
     </h1>
 </div>
-
+</a>
 </template>
 <script setup>
 
