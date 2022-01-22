@@ -3,7 +3,7 @@
   <div>
     <div class="flex justify-between items-center flex-wrap">
       <Title></Title>
-      <div class="mr-4 my-2 bg-slate-400 p-4 rounded-md shadow-md flex flex-wrap items-center justify-between space-x-2 w-8/12 gap-2"> 
+      <div class="mr-4 my-2 bg-slate-400 p-4 rounded-md shadow-md flex flex-wrap items-center justify-between space-x-2 w-3/5 gap-2"> 
         
         <SelectionList :election="dataSrc.election"></SelectionList>
 
@@ -14,21 +14,21 @@
         
         <div class="flex-1">
           <label for="selectElectionCode">Election: </label>
-          <select name="selectElectionCode" class="cursor-pointer w-3/5 rounded-sm p-1" v-model="selectedElectionData">
+          <select name="selectElectionCode" class="cursor-pointer w-full rounded-sm p-1" v-model="selectedElectionData">
             <option v-for="election of Object.keys(electionData)" :key="election">{{ election }}</option>
           </select> 
         </div>
 
         <div class="flex-1">
           <label for="selectMapShading">Display: </label>
-          <select name="selectMapShading" class="cursor-pointer w-3/5 rounded-sm p-1" v-model="selectedMapShading" value="winner">
+          <select name="selectMapShading" class="cursor-pointer w-full rounded-sm p-1" v-model="selectedMapShading" value="winner">
             <option v-for="name of Object.keys(mapShadings)" :key="mapShadings[name]" :value="mapShadings[name]">{{name}}</option>
           </select> 
         </div>
 
         <div class="flex-1">
           <label for="selectMapFilter">Filter: </label>
-          <select name="selectMapFilter" class="cursor-pointer w-3/5 rounded-sm p-1" v-model="selectedMapFilter" value="all">
+          <select name="selectMapFilter" class="cursor-pointer w-full rounded-sm p-1" v-model="selectedMapFilter" value="all">
             <option v-for="name of Object.keys(mapFilters)" :key="mapFilters[name]" :value="mapFilters[name]">{{name}}</option>
           </select> 
         </div>
