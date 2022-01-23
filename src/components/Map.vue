@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full rounded-lg shadow-lg bg-slate-600">
-        <svg ref="map" class="rounded-lg"></svg>
+        <svg ref="map" class="w-full h-full rounded-lg"></svg>
     </div>
 </template>
 <script setup>

@@ -3,7 +3,7 @@
   <div>
     <div class="flex justify-between items-center flex-wrap">
       <Title></Title>
-      <div class="mr-4 my-2 bg-slate-400 p-4 rounded-md shadow-md flex flex-wrap items-center justify-between space-x-2 w-3/5 gap-2"> 
+      <div class="mr-4 my-2 bg-slate-400 p-4 rounded-md shadow-md flex flex-wrap items-center justify-between space-x-2 w-3/5 gap-2 flex-1"> 
         
         <SelectionList :election="dataSrc.election"></SelectionList>
 
@@ -45,6 +45,18 @@
     :focusPath="search"
     @changeFocus="changeFocus"
   ></Map>
+
+  
+  <div class="w-full bg-slate-600 rounded-lg shadow-lg p-4 text-gray-100" style="grid-column: 1/-1;">
+    Wesbite licensed under the <a class="underline hover:no-underline text-red-500 hover:text-red-200 transition-all ease-in" href="https://raw.githubusercontent.com/jamesm2w/election-results/main/LICENSE">GNU AGPLv3</a>.
+    (<a class="underline hover:no-underline text-blue-500 hover:text-blue-200 transition-all ease-in" href="https://github.com/jamesm2w/election-results">Github Source</a>).
+    <br>
+    Election Result information licensed under the <a class="underline hover:no-underline text-red-500 hover:text-red-200 transition-all ease-in" href="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</a> 
+    (<a class="underline hover:no-underline text-blue-500 hover:text-blue-200 transition-all ease-in" href="https://electionresults.parliament.uk/">Results Source</a>).
+    <br>
+    UK Constituency Boundaries Source: Office for National Statistics licensed under the  <a class="underline hover:no-underline text-red-500 hover:text-red-200 transition-all ease-in" href="https://www.ons.gov.uk/methodology/geography/licences">Open Government Licence v.3.0</a> 
+    (<a class="underline hover:no-underline text-blue-500 hover:text-blue-200 transition-all ease-in" href="https://geoportal.statistics.gov.uk/datasets/westminster-parliamentary-constituencies-december-2020-uk-bgc/explore?location=55.340085%2C-3.316534%2C6.04">Boundary Source</a>).
+  </div>
 </template>
 
 <script setup>
