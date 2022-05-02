@@ -689,29 +689,77 @@
 		"name": "Southend West", 
 		"by-election": {
 			"previous": "David Amess",
-			"date": "TBA",
+			"date": "3 February 2021",
 			"reason": "Death (Murder)"
 		},
 		"electorate": 66780, 
-		"turnout": 0, 
-		"majority": 0, 
-		"result": "TBA", 
+		"turnout": 15924, 
+		"majority": 12280, 
+		"result": "Con hold", 
 		"mp": {
-			"name": "TBA",
-			"party": "Ind"
+			"name": "Anna Firth",
+			"party": "Con"
 		},
 		"candidates": [
 			{
 				"candidate": "Anna Firth",
 				"party": "Con", 
-				"votes": 0, 
-				"change": 0, 
+				"votes": 12792, 
+				"change": 26.9, 
 				"incumbent": false, 
 				"elected": true
 			},
 			{
+				"candidate": "Jason Pilley",
+				"party": "Psychedelic Movement", 
+				"votes": 512, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Steve Laws",
+				"party": "UKIP", 
+				"votes": 400, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
 				"candidate": "Catherine Blaiklock",
 				"party": "ED", 
+				"votes": 320, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jayda Fransen",
+				"party": "Ind", 
+				"votes": 299, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Ben Downton",
+				"party": "Heritage", 
+				"votes": 236, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Christopher Anderson",
+				"party": "Freedom Alliance",
+				"votes": 161,
+				"change": 0,
+				"incumbent": false,
+				"elected": false
+			},
+			{
+				"candidate": "Graham Moore",
+				"party": "English Constitution", 
 				"votes": 0, 
 				"change": 0, 
 				"incumbent": false, 
@@ -724,46 +772,6 @@
 				"change": 0, 
 				"incumbent": false, 
 				"elected": false
-			},
-			{
-				"candidate": "Ben Downton",
-				"party": "Heritage", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			},
-			{
-				"candidate": "Jayda Fransen",
-				"party": "Ind", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			},
-			{
-				"candidate": "Steve Laws",
-				"party": "UKIP", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			},
-			{
-				"candidate": "Graham Moore",
-				"party": "English Constitution", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
-			},
-			{
-				"candidate": "Jason Pilley",
-				"party": "Psychedelic Movement", 
-				"votes": 0, 
-				"change": 0, 
-				"incumbent": false, 
-				"elected": false
 			}
 		]
 	},
@@ -772,21 +780,195 @@
 		"name": "Birmingham, Erdington",
 		"by-election": {
 			"previous": "Jack Dromey",
-			"date": "TBA",
+			"date": "3 March 2022",
 			"reason": "Death (Natural Causes)"
 		},
 		"electorate": 66148, 
-		"turnout": 0, 
-		"majority": 0, 
-		"result": "TBD", 
+		"turnout": 17016, 
+		"majority": 3266, 
+		"result": "Lab hold", 
 		"mp": {
-			"name": "TBD", 
+			"name": "Paulette Hamilton", 
+			"party": "Lab"
+		}, 
+		"candidates": [
+			{
+				"candidate": "Paulette Hamilton",
+				"party": "Lab", 
+				"votes": 9413, 
+				"change": 5.2, 
+				"incumbent": false, 
+				"elected": true
+			},
+			{
+				"candidate": "Robert Aiden",
+				"party": "Con", 
+				"votes": 6174, 
+				"change": -3.8, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Dave Nellist",
+				"party": "TUSC", 
+				"votes": 360, 
+				"change": 2.1, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Jack Brookes",
+				"party": "Reform UK", 
+				"votes": 293, 
+				"change": -2.4, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Siobhan Harper-Nunes",
+				"party": "Grn", 
+				"votes": 236, 
+				"change": -1.4, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Lee Dargue",
+				"party": "LD", 
+				"votes": 173, 
+				"change": -2.7, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Michael Lutwyche",
+				"party": "Ind", 
+				"votes": 109, 
+				"change": 0.6, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Mel Mbondiah",
+				"party": "CPA", 
+				"votes": 79, 
+				"change": 0.5, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Thomas O'Rourke",
+				"party": "Ind", 
+				"votes": 76, 
+				"change": 0.4, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "The Good Knight Sir NosDa",
+				"party": "MLRP", 
+				"votes": 49, 
+				"change": 0.3, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "Clifton Holmes",
+				"party": "Ind", 
+				"votes": 14, 
+				"change": 0.1, 
+				"incumbent": false, 
+				"elected": false
+			},
+			{
+				"candidate": "David Bishop",
+				"party": "Church of the Militant Elvis", 
+				"votes": 8, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14001009": {
+		"id": "E14001009", 
+		"name": "Wakefield", 
+		"by-election": {
+			"previous": "Imran Ahmad Khan",
+			"date": "TBA",
+			"reason": "Resignation after conviction of CSA."
+		},
+		"electorate": 70192, 
+		"turnout": 45027, 
+		"majority": 0, 
+		"result": "TBA", 
+		"mp": {
+			"name": "TBA", 
 			"party": "Ind"
 		}, 
 		"candidates": [
 			{
-				"candidate": "TBD",
+				"candidate": "TBA", 
+				"party": "Con", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "TBA", 
 				"party": "Lab", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}
+		]
+	},
+	"E14000996": {
+		"id": "E14000996", 
+		"name": "Tiverton and Honiton", 
+		"by-election": {
+			"previous": "Neil Parish",
+			"date": "TBA",
+			"reason": "Resignation after accusation of watching porn in Parliament."
+		},
+		"electorate": 82953, 
+		"turnout": 59613, 
+		"majority": 0, 
+		"result": "TBA", 
+		"mp": {
+			"name": "TBA", 
+			"party": "Ind"
+		}, 
+		"candidates": [
+			{
+				"candidate": "TBA", 
+				"party": "Con", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "TBA", 
+				"party": "Lab", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "TBA", 
+				"party": "LD", 
+				"votes": 0, 
+				"change": 0, 
+				"incumbent": false, 
+				"elected": false
+			}, 
+			{
+				"candidate": "TBA", 
+				"party": "Green", 
 				"votes": 0, 
 				"change": 0, 
 				"incumbent": false, 
