@@ -48,9 +48,6 @@
 
   
   <div class="w-full bg-slate-600 rounded-lg shadow-lg p-4 text-gray-100" style="grid-column: 1/-1;">
-    Wesbite licensed under the <a class="underline hover:no-underline text-red-500 hover:text-red-200 transition-all ease-in" href="https://raw.githubusercontent.com/jamesm2w/election-results/main/LICENSE">GNU AGPLv3</a>.
-    (<a class="underline hover:no-underline text-blue-500 hover:text-blue-200 transition-all ease-in" href="https://github.com/jamesm2w/election-results">Github Source</a>).
-    <br>
     Election Result information licensed under the <a class="underline hover:no-underline text-red-500 hover:text-red-200 transition-all ease-in" href="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</a> 
     (<a class="underline hover:no-underline text-blue-500 hover:text-blue-200 transition-all ease-in" href="https://electionresults.parliament.uk/">Results Source</a>).
     <br>
